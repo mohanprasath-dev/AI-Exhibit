@@ -9,6 +9,8 @@ import { formatNumber } from "@/lib/utils";
 import type { Entry } from "@/types";
 import HomeClient from "./HomeClient";
 
+export const dynamic = 'force-dynamic';
+
 // Fetch real stats from database
 async function getStats() {
   try {

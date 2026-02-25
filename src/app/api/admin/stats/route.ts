@@ -1,6 +1,8 @@
 import { NextRequest, NextResponse } from "next/server";
 import { createClient, createAdminClient } from "@/lib/supabase/server";
 
+export const dynamic = 'force-dynamic';
+
 // Admin email list - should match the one in entries route
 const ADMIN_EMAILS = [
   process.env.ADMIN_EMAIL || "admin@aiexhibit.com",

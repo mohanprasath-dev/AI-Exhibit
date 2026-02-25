@@ -3,6 +3,8 @@ import { createClient } from "@/lib/supabase/server";
 import { voteSchema } from "@/lib/validations";
 import { headers } from "next/headers";
 
+export const dynamic = 'force-dynamic';
+
 export async function POST(request: NextRequest) {
   try {
     const body = await request.json();

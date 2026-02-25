@@ -3,6 +3,8 @@ import { createClient, createAdminClient } from "@/lib/supabase/server";
 import { submitEntrySchema } from "@/lib/validations";
 import type { GalleryFilters, PaginatedResponse, Entry } from "@/types";
 
+export const dynamic = 'force-dynamic';
+
 export async function GET(request: NextRequest) {
   try {
     const { searchParams } = new URL(request.url);

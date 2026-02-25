@@ -4,6 +4,8 @@ import { createClient } from "@/lib/supabase/server";
 import EntryDetailClient from "./EntryDetailClient";
 import type { Entry } from "@/types";
 
+export const dynamic = 'force-dynamic';
+
 interface EntryPageProps {
   params: { id: string };
 }

@@ -1,0 +1,14 @@
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="600" fill="#0a0a0f"/>
+  <defs>
+    <linearGradient id="gradient1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00d4ff" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#a855f7" stop-opacity="0.3"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#gradient1)"/>
+  <circle cx="400" cy="250" r="80" fill="none" stroke="#00d4ff" stroke-width="3" opacity="0.6"/>
+  <path d="M360 250 L390 280 L440 220" stroke="#00d4ff" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.6"/>
+  <text x="400" y="380" text-anchor="middle" fill="#ffffff" font-family="system-ui" font-size="24" opacity="0.5">AI Exhibit</text>
+  <text x="400" y="420" text-anchor="middle" fill="#00d4ff" font-family="system-ui" font-size="16" opacity="0.4">Image Loading...</text>
+</svg>

@@ -1,0 +1,48 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#0a0a0f"/>
+  <defs>
+    <linearGradient id="ogGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00d4ff"/>
+      <stop offset="50%" stop-color="#a855f7"/>
+      <stop offset="100%" stop-color="#06b6d4"/>
+    </linearGradient>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00d4ff" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#a855f7" stop-opacity="0.1"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background pattern -->
+  <rect width="1200" height="630" fill="url(#bgGradient)"/>
+  
+  <!-- Decorative circles -->
+  <circle cx="150" cy="100" r="200" fill="none" stroke="#00d4ff" stroke-width="1" opacity="0.1"/>
+  <circle cx="1050" cy="530" r="250" fill="none" stroke="#a855f7" stroke-width="1" opacity="0.1"/>
+  <circle cx="900" cy="150" r="100" fill="none" stroke="#06b6d4" stroke-width="1" opacity="0.15"/>
+  
+  <!-- Logo/Icon area -->
+  <circle cx="200" cy="315" r="60" fill="none" stroke="url(#ogGradient)" stroke-width="3"/>
+  <text x="200" y="330" text-anchor="middle" fill="url(#ogGradient)" font-family="system-ui" font-size="40" font-weight="bold">AI</text>
+  
+  <!-- Main title -->
+  <text x="300" y="290" fill="#ffffff" font-family="system-ui" font-size="72" font-weight="bold">AI Exhibit</text>
+  
+  <!-- Tagline -->
+  <text x="300" y="360" fill="#00d4ff" font-family="system-ui" font-size="28">A Digital Showcase of AI-Powered Creativity</text>
+  
+  <!-- Subtitle -->
+  <text x="300" y="420" fill="#888888" font-family="system-ui" font-size="20">Submit • Vote • Discover AI-Generated Art, Music &amp; More</text>
+  
+  <!-- Bottom gradient line -->
+  <rect x="0" y="610" width="1200" height="20" fill="url(#ogGradient)" opacity="0.8"/>
+  
+  <!-- Stats badges -->
+  <rect x="300" y="480" width="120" height="40" rx="20" fill="#00d4ff" fill-opacity="0.1" stroke="#00d4ff" stroke-opacity="0.3"/>
+  <text x="360" y="507" text-anchor="middle" fill="#00d4ff" font-family="system-ui" font-size="14">🎨 AI Art</text>
+  
+  <rect x="440" y="480" width="120" height="40" rx="20" fill="#a855f7" fill-opacity="0.1" stroke="#a855f7" stroke-opacity="0.3"/>
+  <text x="500" y="507" text-anchor="middle" fill="#a855f7" font-family="system-ui" font-size="14">🎵 AI Music</text>
+  
+  <rect x="580" y="480" width="120" height="40" rx="20" fill="#06b6d4" fill-opacity="0.1" stroke="#06b6d4" stroke-opacity="0.3"/>
+  <text x="640" y="507" text-anchor="middle" fill="#06b6d4" font-family="system-ui" font-size="14">🎬 AI Video</text>
+</svg>

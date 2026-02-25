@@ -1,0 +1,12 @@
+# AI Exhibit - robots.txt
+# https://www.robotstxt.org/
+
+User-agent: *
+Allow: /
+
+# Disallow admin and API routes
+Disallow: /api/
+Disallow: /admin/
+
+# Sitemap location
+Sitemap: https://ai-exhibit.com/sitemap.xml

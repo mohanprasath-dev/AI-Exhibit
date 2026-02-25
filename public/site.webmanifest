@@ -1,0 +1,25 @@
+{
+  "name": "AI Exhibit",
+  "short_name": "AI Exhibit",
+  "description": "A digital showcase of AI-powered creativity. Submit, vote, and discover amazing AI creations.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0a0f",
+  "theme_color": "#0EA5E9",
+  "icons": [
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["entertainment", "social", "art"],
+  "orientation": "portrait-primary"
+}
